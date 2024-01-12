@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline #999;
+}
+
+body {
+    background-color: #fff;
+    font-family: "Ubuntu", sans-serif;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2.5rem;
+    align-items: center;
+}
+
+#help-feed {
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.bx-help-circle {
+    font-size: 2.5rem;
+    color: gray;
+    margin-right: 10px;
+}
+
+#tt-logo {
+    width: 200px;
+}
+
+main {
+    margin-top: 10vh;
+}
+
+#login-heading {
+    font-size: 3.5vw;
+    text-align: center;
+}
+
+#login-sub-heading {
+    color: gray;
+    font-size: 1.8vw;
+    text-align: center;
+    width: 50%;
+    margin: 20px auto 0 auto;
+    opacity: 60%;
+}
+
+.btns {
+    width: 50%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.btn {
+    padding: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: transparent;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    text-align: center;
+}
+
+#hr-small {
+    width: 50%;
+    margin: 10px auto;
+    opacity: 60%;
+}
+
+#hr-regular {
+    opacity: 60%;
+}
+
+.sign-up-div {
+    margin-top: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sign-up {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+#sign-up span {
+    color: rgb(255, 0, 85);
+}
